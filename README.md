@@ -148,7 +148,7 @@ ggplot(mtcars, aes(x=wt, y=mpg)) + geom_point() +
     opts(title="Title text goes here") +
     opts(plot.title = theme_text(size = 16, family="Georgia", face="italic"))
 
-ggsave("fonttest-win.pdf")
+ggsave("fonttest-win.png")
 ```
 
 
